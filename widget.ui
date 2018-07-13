@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>321</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>一</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>二</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>三</string>
+    </property>
+   </column>
+   <item row="1" column="0">
+    <property name="text">
+     <string>aaa</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>bbb</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>ccc</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>ddd</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>eee</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>fff</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
